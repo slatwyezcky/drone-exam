@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f4f6fb;
+}
+
+.btn-primary {
+  @apply bg-slate-800 text-white font-semibold px-6 py-2.5 rounded-xl shadow-sm transition-all duration-200;
+}
+.btn-primary:hover {
+  @apply bg-slate-900 transform -translate-y-px shadow-md;
+}
