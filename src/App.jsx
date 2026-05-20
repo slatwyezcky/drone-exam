@@ -28,7 +28,7 @@ const StartScreen = ({ onStart }) => (
 			</p>
 			<div className="mt-6 bg-slate-50 rounded-xl p-5 text-left">
 				<p className="text-slate-700 text-sm font-medium">
-					✓ 49 вопросов с ответами
+					✓ 100 вопросов с ответами
 				</p>
 				<p className="text-slate-700 text-sm mt-1">
 					✓ Мгновенная обратная связь после проверки
