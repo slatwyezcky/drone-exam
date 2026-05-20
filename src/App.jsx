@@ -132,7 +132,7 @@ const QuizInterface = ({ questions, onFinish }) => {
 							>
 								<div className="flex items-start">
 									<div
-										className={`w-5 h-5 mt-0.5 rounded-full border flex items-center justify-center mr-3 ${selectedAnswer === opt && !isChecked ? "border-indigo-600 bg-indigo-600" : "border-gray-300"}`}
+										className={`w-5 h-5 mt-0.5 aspect-square rounded-full border flex items-center justify-center mr-3 ${selectedAnswer === opt && !isChecked ? "border-indigo-600 bg-indigo-600" : "border-gray-300"}`}
 									>
 										{selectedAnswer === opt && !isChecked && (
 											<div className="w-2 h-2 rounded-full bg-white"></div>
