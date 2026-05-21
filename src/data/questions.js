@@ -700,7 +700,7 @@ export const generateQuestions = () => {
 		},
 		{
 			disc: "Профессиональный цикл",
-			q: "Что такое filesafe?",
+			q: "Что такое filesafe (или  failsafe)?",
 			correct: "Защитный режим при внештатной ситуации",
 			distractors: [
 				"Режим шифрования данных",
